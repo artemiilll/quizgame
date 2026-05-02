@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_quiz.css') }}">
+    <title>Вопрос {{ q_num }}</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Вопрос №{{ q_num }}</h1>
+        <div class="question">{{ q_text }}</div>
+        
+        {% for variant in variants %}
+            <a href="/test" class="variant-btn">{{ variant }}</a>
+        {% endfor %}
+    </div>
+</body>
+</html>
+

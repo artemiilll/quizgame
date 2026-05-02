@@ -1,0 +1,11 @@
+body { font-family: Arial; background: #f4f4f9; text-align: center; padding: 50px; }
+.container { background: white; max-width: 500px; margin: auto; padding: 30px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+.quiz-btn { display: block; margin: 10px auto; padding: 15px 30px; background: #4CAF50; color: white; text-decoration: none; border-radius: 5px; width: 80%; }
+.quiz-btn:hover { background: #45a049; }
+input { padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 70%; margin-bottom: 20px; }
+button { padding: 10px 20px; background: #2196F3; color: white; border: none; border-radius: 5px; cursor: pointer; }
+.card { background: white; max-width: 400px; margin: auto; padding: 40px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+.restart-btn { display: inline-block; margin-top: 20px; padding: 15px 30px; background: #4CAF50; color: white; text-decoration: none; border-radius: 5px; }
+.variant-btn { display: block; margin: 15px auto; padding: 15px 30px; background: #2196F3; color: white; text-decoration: none; border-radius: 8px; width: 80%; transition: 0.3s; }
+.variant-btn:hover { background: #0b7dda; transform: scale(1.02); }
+.question { font-size: 22px; margin-bottom: 20px; color: #333; }
