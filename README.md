@@ -1,2 +1,2 @@
 # quizgame
-quiz 
+MY VERY COOL STUDY PROJECT LOL
